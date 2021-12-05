@@ -8,21 +8,21 @@
 <h1> Tình ĐIỂM TRUNG BÌNH CỘNG 3 MÔN Toán , Lí , Hóa  </h1>
 <button onclick="avg();">Trung Bình Cộng</button>
 <h1 id="avg"> Kết quả: </h1>
-<input  id="T" type="text" name="Toán">
-<input  id = "L" type="text" name="Lí">
-<input  id="H" type="text" name="Hóa">
+<input  id="Toan" type="text" name="Toán">
+<input  id = "Li" type="text" name="Lí">
+<input  id="Hoa" type="text" name="Hóa">
 <script>
     alert("Tính điểm trung bình cộng ")
     function avg () {
-        let T = document.getElementById("T").value;
-        T = parseInt(T);
-        let L = document.getElementById("L").value;
-        L = parseInt(L);
-        let H = document.getElementById("H").value;
-        H = parseInt(H);
-        let avg = (T + L + H) /3
+        let Toan = document.getElementById("Toan").value;
+        Toan = parseInt(Toan);
+        let Li = document.getElementById("Li").value;
+        Li = parseInt(Li);
+        let Hoa = document.getElementById("Hoa").value;
+        Hoa = parseInt(Hoa);
+        let avg = (Toan + Li + Hoa) / 3
         alert("Điểm trung bình= " + avg);
-
+    }
 </script>
 </body>
 </html>
