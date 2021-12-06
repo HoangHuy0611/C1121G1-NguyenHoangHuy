@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" placeholder="number1" id="num1">
+<input type="text" placeholder="number2" id="num2"><br><br>
+<input type="button" value="Addition(+)" onclick="tinh('+')">
+<input type="button" value="Subtraction(-)" onclick="tinh('-')">
+<input type="button" value="Multiplication(X)" onclick="tinh('*')">
+<input type="button" value="Division(/)" onclick="tinh('/')"><br><br>
+
+
+<script>
+
+    function tinh(toanTu) {
+        let num1 = parseInt(document.getElementById("num1").value);
+        let num2 = parseInt(document.getElementById("num2").value);
+        if (toanTu == "+") {
+            let result = num1 + num2
+            alert("tổng là: " + result)
+        } else if (toanTu == "-") {
+            let result = num1 - num2
+            alert("hiệu là: " + result)
+        } else if (toanTu == "*") {
+            let result = num1*num2
+            alert("tích là: " + result)
+        } else{
+            let result = num1/num2
+            alert("thương là: " + result)
+        }
+    }
+</script>
+
+</body>
+</html>

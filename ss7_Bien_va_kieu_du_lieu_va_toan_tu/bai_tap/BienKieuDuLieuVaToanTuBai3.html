@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diện tích hình tròn</title>
+</head>
+<body>
+<input id = "R"  ; type="text" >
+ <button id = "dT" onclick="Sht();" >nhap</button>
+    <script>
+        alert("Dientichhinhtron");
+        function Sht() {
+            let R = document.getElementById("R").value;
+            R = parseInt(R);
+            let S = (R*R)*3.14 ;
+
+            alert ("S="+ S);
+
+        }
+    </script>
+
+</body>
+</html>

@@ -5,6 +5,26 @@
     <title>TinhDiemTrungBinhCong</title>
 </head>
 <body>
-    <button onclick="avg();"
+    <button onclick="avg();">TrungBinhCong</button>
+    <h1 id="avg"> Kết quả: </h1>
+
+    <input  id="Sinh" type="text" name="Sinh">Sinh hoc
+    <input  id = "Li" type="text" name="Lí">Li
+    <input  id="Hoa" type="text" name="Hóa">Hoa
+    <script>
+        alert("Tính điểm trung bình cộng ")
+        function avg () {
+            let Sinh = document.getElementById("Sinh").value;
+            Sinh = parseInt(Sinh);
+            let Li = document.getElementById("Li").value;
+            Li = parseInt(Li);
+            let Hoa = document.getElementById("Hoa").value;
+            Hoa = parseInt(Hoa);
+            let avg = (Sinh + Li + Hoa) / 3
+            let diemtong = (Sinh + Li + Hoa)
+            alert("Điểm trung bình= " + avg);
+            alert("Điểm tổng= " + diemtong);
+        }
+        </script>
 </body>
 </html>

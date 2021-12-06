@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen *C sang do *F</title>
+</head>
+<body>
+    <button onclick="change();">Chuyển đổi</button>
+    <h1 id="change">Kết quả :</h1>
+    <input id="C" type="text" name="*C">*C
+
+    <script>
+        alert("Chuyển đổi ")
+        function change (){
+            let C =document.getElementById("C").value;
+            C = parseInt(C)
+            let change = C* (9/5) + 32;
+            alert("*F= " + change);
+        }
+    </script>
+
+
+
+
+
+
+</body>
+</html>
