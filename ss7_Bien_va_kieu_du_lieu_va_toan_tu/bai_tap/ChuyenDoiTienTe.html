@@ -3,40 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <title>Chuyển đổi tiền tệ</title>
+    <style>
+        th {
+            padding-right: 50px;
+        }
+
+        td {
+            padding-right: 50px;
+            height: 50px;
+            width: 100px;
+        }
+
+        select {
+            height: 30px;
+            width: 100px;
+        }
+    </style>
 
 </head>
 <body>
 <form>
-    <span>Amount</span><br>
-    <input type="text" id="dauvao"></label>
-    <span>FromCurrency</span>
-    <select style="width: 150px ; height: 30px" name="From Currency" id="select1">FromCurrency
+    <table>
 
-        <option value="a">VND</option>
-        <option value="b">USD</option>
-    </select>
-    <span>To Currency</span>
-    <select style="width: 150px ; height: 30px" name="" id="select2">
-        <option value="a">VND</option>
-        <option value="b">USD</option>
-    </select>
-    <button onclick="Chuyendoi()">Convert</button>
-    <script>
-        function Chuyendoi() {
-            let giatrivao = document.getElementById('dauvao').value;
-            let select1 = document.getElementById('select1').value;
-            let select2 = document.getElementById('select2').value;
-            if (select1 == select2) {
-                alert(giatrivao);
-            }
-            if (select1 == "a" && select2 == "b") {
-                alert(giatrivao / 24000);
-            }
-            document.write("Result=" + Chuyendoi)
-        }
+        <tr>
+            <th>Amount</th>
+            <th>FromCurrency</th>
+            <th>To Currency</th>
+        </tr>
 
-    </script>
+        <tr>
+            <td>
+                <input id="nhap" type="text" >
+            </td>
+            <td>
+                <select name="From Currency" id="select1">FromCurrency
+
+                    <option value="a">VND</option>
+                    <option value="b">USD</option>
+                </select>
+            </td>
+            <td>
+                <select name="" id="select2">
+                    <option value="a">VND</option>
+                    <option value="b">USD</option>
+                </select>
+
+            </td>
+            <td>
+                <button type="button" onclick="chuyenDoi()">Convert</button>
+            </td>
+        </tr>
+    </table>
+    <p id="kQ">Result:</p>
+
+
+        <script>
+            function chuyenDoi() {
+                let giaTriVao = document.getElementById('nhap').value;
+                let select1 = document.getElementById('select1').value;
+                let select2 = document.getElementById('select2').value;
+                if (select1 === select2) {
+                    document.getElementById(giaTriVao);
+                }
+                if (select1 === "a" && select2 === "b") {
+                    document.getElementById("kQ").innerText="Result"+ (giaTriVao / 24000);
+                }
+            }
+        </script>
+
+
 </form>
-
 </body>
 </html>

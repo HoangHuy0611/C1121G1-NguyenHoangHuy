@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    let a = parseInt(prompt('Nhấp số điểm bài kiểm tra'));
+    let b = parseInt(prompt('Nhấp số điểm thi giữa kỳ'));
+    let c = parseInt(prompt('Nhấp số điểm thi cuối kỳ '));
+    let score = a + b + c
+    if (score > 75) {
+        if (score > 90) {
+            alert('Học sinh xuất sắc');
+        } else {
+            alert('Học sinh giỏi ');
+        }
+    } else if (score> 60) {
+        alert('Học sinh khá');
+    } else{
+        alert('Học sinh kém');
+    }
+</script>
+
 </body>
 </html>

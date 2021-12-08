@@ -11,6 +11,7 @@
 <input type="button" value="Subtraction(-)" onclick="tinh('-')">
 <input type="button" value="Multiplication(X)" onclick="tinh('*')">
 <input type="button" value="Division(/)" onclick="tinh('/')"><br><br>
+<p id = r > Result Division: </p>
 
 
 <script>
@@ -18,20 +19,23 @@
     function tinh(toanTu) {
         let num1 = parseInt(document.getElementById("num1").value);
         let num2 = parseInt(document.getElementById("num2").value);
-        if (toanTu == "+") {
+        if (toanTu === "+") {
             let result = num1 + num2
-            alert("tổng là: " + result)
-        } else if (toanTu == "-") {
+            document.getElementById("r").innerText = result;
+        } else if (toanTu === "-") {
             let result = num1 - num2
-            alert("hiệu là: " + result)
-        } else if (toanTu == "*") {
+            document.getElementById("r").innerText = result;
+        } else if (toanTu === "*") {
             let result = num1*num2
-            alert("tích là: " + result)
+            document.getElementById("r").innerText = result;
         } else{
             let result = num1/num2
-            alert("thương là: " + result)
+            document.getElementById("r").innerText = result;
         }
+        document.getElementById("r").innerText = result;
     }
+
+
 </script>
 
 </body>

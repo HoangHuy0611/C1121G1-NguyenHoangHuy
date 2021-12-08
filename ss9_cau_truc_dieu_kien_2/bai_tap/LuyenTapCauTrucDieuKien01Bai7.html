@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <script>
+       let phut = parseInt(prompt('Nhập số phút đã gọi '))
+       let tien = 0;
+        if(phut > 200) {
+            tien=phut*2000;
+        } else if (phut > 100){
+            tien=phut*2500;
+        }else {
+            tien=phut*3000;
+        }
+        alert("Số phút đã gọi là: " + phut + "Số tiền phải trả : "+tien)
+
+    </script>
+
 </body>
 </html>

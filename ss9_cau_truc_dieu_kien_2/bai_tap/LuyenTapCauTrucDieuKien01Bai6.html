@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <script>
+        let doanhSo = parseInt(prompt('Nhập doanh số bán hàng'));
+        let hoaHong=0;
+       if (doanhSo > 10000000){
+           hoaHong=doanhSo*0.4;
+       }else if (doanhSo > 8000000){
+           hoaHong=doanhSo*0.3;
+       }else {
+           hoaHong=doanhSo*0.2;
+       }
+       alert('số tiền doanh thu là : '+ doanhSo +'số hoa hồng nhận được :'+hoaHong)
+
+    </script>
+
 </body>
 </html>

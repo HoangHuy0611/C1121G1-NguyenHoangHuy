@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = parseFloat(prompt('Nhập số ngày tính tiền'));
+    let t = parseFloat(prompt('Nhập số ngày của tháng trước liền kề'));
+    let mQi = parseInt(prompt('Nhập mức bậc thang thứ i theo quy định '));
+    let mTi
+    mTi = (mQi / t) * n
+    if (mQi === 1) {
+        mTi = (1678 / t) * n
+        alert('Mức mQi của bạn là ' + mQi + 'thì số tiền bạn phải trả' + mTi+'vnđ')
+    } else if (mQi === 2) {
+        mTi = 1734 / t * n
+        alert('Mức mQi của bạn là ' + mQi + 'thì số tiền bạn phải trả' + mTi+'vnđ')
+    } else if (mQi === 3) {
+        mTi = 2014 / t * n
+        alert('Mức mQi của bạn là ' + mQi + 'thì số tiền bạn phải trả' + mTi+'vnđ')
+    } else if (mQi === 4) {
+        mTi = 2536 / t * n
+        alert('Mức mQi của bạn là ' + mQi + 'thì số tiền bạn phải trả' + mTi+'vnđ')
+    } else if (mQi === 5) {
+        mTi = 2834 / t * n
+        alert('Mức mQi của bạn là ' + mQi + 'thì số tiền bạn phải trả' + mTi+'vnđ')
+    } else if (mQi === 6) {
+        mTi = 2927 / t * n
+        alert('Mức mQi của bạn là ' + mQi + 'thì số tiền bạn phải trả' + mTi+'vnđ')
+    } else {
+        alert('Bạn nhập sai dữ liệu')
+    }
+</script>
+</body>
+</html>

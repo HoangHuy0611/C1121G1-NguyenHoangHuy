@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let thuNhap = parseFloat(prompt('Nhập thu nhập cá nhân :'));
+    let soThang = parseFloat(prompt('Nhập số tháng muốn tính thuế: '));
+    let thue
+    if  (thuNhap < 5000000 ) {
+        thue = thuNhap *0.05*soThang
+        alert('Thu nhập của bạn là :'+ thuNhap + 'Số tháng muốn trả: '+ soThang + 'Số tiền thuế phải trả :'+thue+'vnđ')
+    }else if (10000000 > thuNhap > 5000000 ){
+        thue = thuNhap*0.06*soThang
+        alert('Thu nhập của bạn là :'+ thuNhap + 'Số tháng muốn trả: '+ soThang + 'Số tiền thuế phải trả :'+thue+'vnđ')
+    }else if ( 18000000 > thuNhap > 10000000) {
+        thue = thuNhap*0.07*soThang
+        alert('Thu nhập của bạn là :'+ thuNhap + 'Số tháng muốn trả: '+ soThang + 'Số tiền thuế phải trả :'+thue+'vnđ')
+    }else if ( 32000000 > thuNhap > 18000000 ){
+        thue = thuNhap*0.08*soThang
+        alert('Thu nhập của bạn là :'+ thuNhap + 'Số tháng muốn trả: '+ soThang + 'Số tiền thuế phải trả :'+thue+'vnđ')
+    }else if ( 52000000 > thuNhap > 32000000 ){
+        thue = thuNhap*0.09*soThang
+        alert('Thu nhập của bạn là :'+ thuNhap + 'Số tháng muốn trả: '+ soThang + 'Số tiền thuế phải trả :'+thue+'vnđ')
+    }else if ( 80000000 > thuNhap > 52000000 ){
+        thue = thuNhap*0.010*soThang
+        alert('Thu nhập của bạn là :'+ thuNhap + 'Số tháng muốn trả: '+ soThang + 'Số tiền thuế phải trả :'+thue+'vnđ')
+    }else if ( thuNhap > 80000000 ) {
+        thue = thuNhap*0.011*soThang
+       alert('Thu nhập của bạn là :'+ thuNhap + 'Số tháng muốn trả: '+ soThang + 'Số tiền thuế phải trả :'+thue+'vnđ')
+    }else{
+        alert('Bạn nhập sai dữ liệu, vui lòng nhập lại ')
+    }
+
+
+</script>
+
+</body>
+</html>
