@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32da2a1-d211-46a0-9292-9132be3d38a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/DoYouLoveMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/GoodFastCheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/MayTinhDonGian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/thuc_hanh/SuDungVongLapDoWhile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/thuc_hanh/SuDungVongLapForBai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/thuc_hanh/SuDungVongLapForBai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/thuc_hanh/SuDungVongLapLongNhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/thuc_hanh/SuDungVongLapWhileBai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/thuc_hanh/SuDungVongLapWhileBai2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/GamePuzzl.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/GamePuzzl.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +119,7 @@
       <workItem from="1638962782356" duration="376000" />
       <workItem from="1638963599500" duration="530000" />
       <workItem from="1638964194801" duration="52000" />
+      <workItem from="1638972449963" duration="2030000" />
     </task>
     <servers />
   </component>
