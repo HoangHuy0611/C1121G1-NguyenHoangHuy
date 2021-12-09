@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let c;
+    c = 0;
+    for (let i = 0; ; i++) {
+        c = parseInt(prompt('Nhập nhiệt độ hiện tại: '))
+        if (c < 20) {
+            alert('Bạn hãy tăng nhiệt độ ')
+        } else if (c > 100) {
+            alert('Bạn hãy giảm nhiệt độ ')
+        } else {
+            alert(c)
+            break ;
+        }
+    }
+
+
+</script>
+</body>
+</html>

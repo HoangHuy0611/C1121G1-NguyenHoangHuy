@@ -20,6 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32da2a1-d211-46a0-9292-9132be3d38a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_vong_lap_1/thuc_hanh/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/SinhBangCuuChuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_1/VongLap01Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_1/VongLap01Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_1/VongLap01Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_1/VongLap01Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_1/Vonglap01Bai2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +123,7 @@
       <workItem from="1638972449963" duration="2030000" />
       <workItem from="1638983082468" duration="133000" />
       <workItem from="1639016496686" duration="10000" />
-      <workItem from="1639016913785" duration="607000" />
+      <workItem from="1639016913785" duration="16855000" />
     </task>
     <servers />
   </component>
