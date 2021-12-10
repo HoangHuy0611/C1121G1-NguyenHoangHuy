@@ -8,18 +8,16 @@
 <script>
     let n1 = 0;
     let n2 = 1;
-    let nextTerm
-    for (let i = 0; i <= 20 ; i++) {
-        if (i % 5 ){
-            nextTerm = n1 + n2;
-            n1 = n2;
-            n2 = nextTerm;
-            document.write('Số đầu tiên chia hết cho 5 là '+nextTerm)
-
+    let nextTerm;
+    for (let i = 1; i <= 20; i++) {
+        nextTerm = n1 + n2;
+        n1 = n2;
+        n2 = nextTerm;
+        if (nextTerm % 5 == 0) {
+            alert(nextTerm)
+            break;
         }
     }
-
-
 
 </script>
 </body>

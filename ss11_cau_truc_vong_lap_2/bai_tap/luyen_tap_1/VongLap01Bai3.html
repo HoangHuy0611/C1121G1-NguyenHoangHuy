@@ -6,16 +6,17 @@
 </head>
 <body>
     <script>
-        let n1 = 0 ;
-        let n2 = 1 ;
-        let nextTerm ;
-        for (let i = 1 ; i <= 20 ; i++){
-            nextTerm = n1 + n2 ;
-            n1 = n2 ;
-            n2 = nextTerm ;
-            document.write("20 số trong dãy fibonacci đầu tiên: "+ nextTerm)
-            document.write("<br>")
+        let n1 = 0;
+        let n2 = 1;
+        let nextTerm;
+        let result = n1 + "," + n2 + ","
+        for (let i = 1; i <= 20; i++) {
+            nextTerm = n1 + n2;
+            n1 = n2;
+            n2 = nextTerm;
+            result += nextTerm;
         }
+        document.write("20 số trong dãy fibonacci đầu tiên: " + result)
     </script>
 
 </body>
