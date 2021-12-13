@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [-3, 5, 1, 3, 2, 10];
+    let max = numbers[0];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] > max) {
+            max = numbers[i];
+        }
+    } alert("Gia tri lon nhat trong mang la : " + max);
+    let sum = 0
+    for (let j = 0; j < numbers.length; j++) {
+        sum += parseInt(numbers[j], 6);
+    }
+    let avg = sum / numbers.length;
+    alert("Gia tri trung binh la :" + avg);
+
+</script>
+</body>
+</html>
