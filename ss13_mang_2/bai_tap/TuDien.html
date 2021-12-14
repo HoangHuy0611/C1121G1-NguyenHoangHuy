@@ -5,36 +5,24 @@
     <title>Title</title>
 </head>
 <body>
-<input  type = text id="r" >
-<button onclick="nhap()" type = button value="">Nhap</button>
+<form>
+    <input id="input" type="text" placeholder="Nhập từ">
+    <input id="search" type="button" value="Change" onclick="change()">
+    <div id="result"></div>
+</form>
 
 <script>
-    function tu() {
-        let arr1 = Array("Dog", "Cat", "Monkey");
-        let arr2 = Array("Chó", "Mèo", "Khỉ");
-        let kQ = []
-        for (let i = 0; i = arr1; i++) {
-            for (let j = 0; j = arr2; j++) {
-                [i] = [j];
-                kQ += [j];
-            }
-            if (i = 0) {
-                document.write(kQ)
 
-            } else if (i > 0) {
-                i++;
-                document.write(kQ)
+    let arr1 = Array("Dog", "Cat", "Monkey");
+    let arr2 = Array("Chó", "Mèo", "Khỉ");
 
-            } else {
-                document.write(kQ)
+    function change() {
+        let a = document.getElementById('input').value;
+        for (let i = 0; i < arr1.length; i++) {
+            if (a == arr1[i]) {
+                document.getElementById("result").innerHTML = arr2[i]
+                break;
             }
-        }
-    }
-    function nhap() {
-        if( i = 0  && i < 3){
-            document.getElementById(r).value = kQ;
-        }else {
-            document.getElementById(r).value = kQ;
         }
     }
 

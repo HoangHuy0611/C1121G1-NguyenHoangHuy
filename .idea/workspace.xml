@@ -20,18 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32da2a1-d211-46a0-9292-9132be3d38a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/SuDungHamCoSanCuaMangBai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/SuDungHamCoSanCuaMangBai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/SuDungHamCoSanCuaMangBai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/TuDien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_2/Mang02Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_2/Mang02Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_2/Mang02Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_2/Mang02Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_2/Mang02Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_2/Mang02Bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_14_ham_1/thuc_hanh/ChuyenDoiNhietDo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_14_ham_1/thuc_hanh/TaoVaGoiHam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_14_ham_1/thuc_hanh/TimGiaTriNhoNhatCuaMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_1/VongLap01Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_1/VongLap01Bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/TuDien.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/TuDien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_1/Mang01Bai6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +140,10 @@
       <workItem from="1639296544736" duration="4961000" />
       <workItem from="1639307442728" duration="925000" />
       <workItem from="1639323082806" duration="67000" />
-      <workItem from="1639358545293" duration="22524000" />
+      <workItem from="1639358545293" duration="23397000" />
+      <workItem from="1639444721983" duration="12592000" />
+      <workItem from="1639458034190" duration="259000" />
+      <workItem from="1639463767617" duration="12208000" />
     </task>
     <servers />
   </component>
@@ -167,18 +175,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638767453657" />
-    <state x="132" y="0" width="984" height="1017" key="dock-window-1" timestamp="1639372553801">
+    <state x="204" y="0" width="728" height="1010" key="dock-window-1" timestamp="1639465105201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="132" y="0" width="984" height="1017" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1639372553801" />
+    <state x="204" y="0" width="728" height="1010" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1639465105201" />
     <state x="794" y="50" width="783" height="1017" key="dock-window-10" timestamp="1638927444491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="50" width="783" height="1017" key="dock-window-10/0.0.1920.1040@0.0.1920.1040" timestamp="1638927444491" />
-    <state x="708" y="100" width="747" height="1017" key="dock-window-2" timestamp="1639383649704">
+    <state x="0" y="87" width="609" height="1010" key="dock-window-2" timestamp="1639473284680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="708" y="100" width="747" height="1017" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1639383649704" />
+    <state x="0" y="87" width="609" height="1010" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1639473284680" />
     <state x="3" y="36" width="912" height="1010" key="dock-window-3" timestamp="1639383954579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

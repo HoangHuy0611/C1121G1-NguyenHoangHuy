@@ -5,9 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-​
 <script>
-
     let size;
     let check;
     do {
@@ -33,11 +31,15 @@
         alert(value + "is in the array ");
     } else if (check == false) {
         alert(value + " is not in the array ")
+
+        for (let h = 0; h < array.length; h++) {
+            if (array[h].id == value) {
+                array.splice(h, 1);
+            }
+        }
     }
-
-
+    document.write(array)
 
 </script>
-
 </body>
 </html>

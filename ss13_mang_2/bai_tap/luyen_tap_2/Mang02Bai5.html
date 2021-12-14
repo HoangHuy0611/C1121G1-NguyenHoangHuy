@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt("Nhập chuỗi a : ");
+    let b = prompt("Nhập chuỗi b : ");
+    let array1 = a.split(' ');
+    let array2 = b.split(' ');
+    let check = true;
+    if (array1.length !== array2.length) {
+        check = false;
+    } else {
+        for (let i = 0; i < array1.length; i++) {
+            if (array1[i] !== array2[i]) {
+                check = false;
+            }
+        }
+    }
+    if (check==true){
+        alert("2 mảng này giống nhau ");
+    }if (check==false){
+        alert("2 mảng này không giống nhau ");
+    }
+</script>
+</body>
+</html>

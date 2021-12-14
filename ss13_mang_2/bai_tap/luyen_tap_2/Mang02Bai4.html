@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let input = prompt("Nhap chuoi ky tu: ");
+    alert(input);
+    let count = 1;
+    for (let i = 0; i < input.length; i++) {
+        if (input[i] == " ") {
+            count++;
+        }
+    }
+    alert("So tu trong chuoi la " + count);
+
+</script>
+
+</body>
+</html>
