@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function aBC(a,b){
+        if ( a > b){
+            alert("số a lớn hơn số b ");
+            return;
+        } if(a < b){
+            return a + b ;
+        }
+    }
+    let a = parseInt(prompt("Nhập tham số thứ nhất "));
+    let b = parseInt(prompt("Nhập tham số thứ hai "));
+    let bcA = aBC(a,b);
+    alert("Tham số thứ nhất nhỏ hơn tham số thứ hai thì tổng của hai tham số là : "+ bcA)
+</script>
+</body>
+</html>

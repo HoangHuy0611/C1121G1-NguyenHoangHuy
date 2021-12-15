@@ -19,19 +19,17 @@
         array[i] = parseInt(prompt("nhập vào phần tử thứ " + i));
     }
     let value = parseInt(prompt("Nhập so can check"));
+    let check1 = false ;
     for (let j = 0; j < array.length; j++) {
         if (value == array [j]) {
-            check = true;
+            check1 = true;
             break;
         }
-        if (value != array [j]) {
-            check = false ;
-            break;
-        }
+
     }
-    if (check == true) {
+    if (check1 == true) {
         alert(value + "is in the array ");
-    } else if (check == false) {
+    } else if (check1 == false) {
         alert(value + " is not in the array ")
     }
 

@@ -5,29 +5,24 @@
     <title>Title</title>
 </head>
 <body>
-<script>
-    let kiTu = [
-        {
-            "id" : 1,
-            "name" : "-1"
-        },
-        {
-            "id" : 2,
-            "name" : "-4",
-        },
-        {
-            "id" : 3,
-            "name" : "-b",
-        },
-        {
-            "id" : 4,
-            "name" : "-c",
+    <script>
+    let size;
+    let check;
+    do {
+        size = prompt("Nhap size cua mang: ");
+        check = parseInt(size) == size;
+    } while(!check);
+    let arr = new Array(parseInt(size));
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = prompt("Nhap phan tu thu " + i);
+    }
+    alert("mang cua ban: " + arr);
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == "-") {
+            arr[i] = "_";
         }
-    ]
-    let newKiTu = kiTu.map(function (kiTu) {
-        if (kiTu.id)
-
-    })
+    }
+    alert("mang cua ban: " + arr);
 </script>
 
 </body>
