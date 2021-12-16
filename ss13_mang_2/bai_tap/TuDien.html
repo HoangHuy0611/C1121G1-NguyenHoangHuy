@@ -18,16 +18,24 @@
 
     function change() {
         let a = document.getElementById('input').value;
+        let check = false;
+        let b = "";
         for (let i = 0; i < arr1.length; i++) {
             if (a == arr1[i]) {
-                document.getElementById("result").innerHTML = arr2[i]
-                break;
-            } else {
-                document.write("Không có từ cần tìm");
+                check = true;
+                b += arr2[i] ;
                 break;
             }
         }
+        if (check == true) {
+
+            document.getElementById("result").innerHTML = b;
+        } else if (check == false) {
+            document.write(" không tìm thấy từ nào ");
+        }
     }
+
+
 
 </script>
 

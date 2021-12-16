@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function soNguyenDuong(a) {
+        let check;
+        if (!isNaN(a)){
+            check = true ;
+        } else {
+            check = false;
+        }
+        if (check ===true){
+            if (Number.isInteger(parseInt(a))&& a > 0){
+                alert(true)
+            }else {
+                alert(false)
+            }
+        }
+    }
+    let n = prompt("Nhập vào 1 số bất kỳ ");
+    soNguyenDuong(n)
+</script>
+
+</body>
+</html>

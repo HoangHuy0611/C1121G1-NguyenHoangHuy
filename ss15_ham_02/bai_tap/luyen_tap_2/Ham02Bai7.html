@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // chưa làm xong còn rối //
+    function soNguyen(){
+
+        while (first < last) {
+            let b = x[first];
+            x[first] = x[last];
+            x[last] = b;
+            first++;
+            last--;
+        }
+    }
+    let first = parseInt(prompt("Nhập số nguyên bất kỳ "));
+    let last = parseInt(prompt("Nhập số nguyên bất kỳ "));
+    let d =soNguyen(first,last);
+        alert(d);
+</script>
+
+</body>
+</html>

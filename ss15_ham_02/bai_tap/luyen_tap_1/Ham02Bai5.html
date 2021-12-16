@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input id="input" type="text" placeholder="Nhập tên ngôi sao">
+<input id="search" type="button" value="ChomSao" onclick="chuoiSao()">
+<div id="result"></div>
+<script>
+    let sao1 = Array("Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe" , "Regulus");
+    let sao2 = Array("Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major" , "Leo");
+    function chuoiSao() {
+        let sao = document.getElementById('input').value;
+        let check = false ;
+        let a = "";
+        for (let i = 0 ; i < sao1.length; i++){
+            if (sao == sao1[i]){
+               check = true ;
+               a += sao2 [i];
+                break;
+            }
+        }
+        if (check == true){
+            document.getElementById("result").innerHTML = a ;
+        }else {
+            document.write(" Không tìm thấy ngôi sao ");
+        }
+    }
+</script>
+</body>
+</html>
