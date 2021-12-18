@@ -20,18 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32da2a1-d211-46a0-9292-9132be3d38a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_1/Ham02Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_ham_02/thuc_hanh/123.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/KiemTraTuDoiXung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/UngDungQuanLySanPhamSuDungHam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/XayDungLopMoTaHinhChuNhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/canvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/thuc_hanh/Funny circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/thuc_hanh/XayDungLopDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/thuc_hanh/XayDungLopHinhTron.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/TuDien.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/TuDien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_ham_02/bai_tap/luyen_tap_2/Ham02Bai8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_ham_02/thuc_hanh/123.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +143,10 @@
       <workItem from="1639531045161" duration="5313000" />
       <workItem from="1639550285785" duration="10891000" />
       <workItem from="1639618520151" duration="15742000" />
-      <workItem from="1639647136727" duration="6306000" />
+      <workItem from="1639647136727" duration="10132000" />
+      <workItem from="1639664795590" duration="609000" />
+      <workItem from="1639703250715" duration="16141000" />
+      <workItem from="1639809166806" duration="2846000" />
     </task>
     <servers />
   </component>
@@ -175,22 +178,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638767453657" />
-    <state x="979" y="57" width="573" height="1027" key="dock-window-1" timestamp="1639649815700">
+    <state x="49" y="0" width="1051" height="1024" key="dock-window-1" timestamp="1639814792824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="979" y="57" width="573" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1639649815700" />
+    <state x="49" y="0" width="1051" height="1024" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1639814792824" />
     <state x="794" y="50" width="783" height="1017" key="dock-window-10" timestamp="1638927444491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="50" width="783" height="1017" key="dock-window-10/0.0.1920.1040@0.0.1920.1040" timestamp="1638927444491" />
-    <state x="899" y="86" width="573" height="1027" key="dock-window-2" timestamp="1639650779660">
+    <state x="24" y="35" width="755" height="1024" key="dock-window-2" timestamp="1639728408054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="899" y="86" width="573" height="1027" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1639650779660" />
-    <state x="943" y="2" width="573" height="1027" key="dock-window-3" timestamp="1639651935499">
+    <state x="24" y="35" width="755" height="1024" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1639728408054" />
+    <state x="13" y="0" width="524" height="1024" key="dock-window-3" timestamp="1639730947586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="943" y="2" width="573" height="1027" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1639651935499" />
+    <state x="13" y="0" width="524" height="1024" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1639730947586" />
     <state x="119" y="56" width="874" height="1017" key="dock-window-4" timestamp="1639625015690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

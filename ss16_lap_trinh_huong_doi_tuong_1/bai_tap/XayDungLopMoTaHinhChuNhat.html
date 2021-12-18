@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="hCN" width="500" height="600"></canvas>
+Viết một lớp các đối tượng hình chữ nhật lấy tên là Rectangle,
+mỗi hình chữ nhật đều có những đặc tính sau:
+
++ Có thông số chiều dài (int).
+
++ Có thông số chiều rộng (int).
+
++ Có tính năng tính diện tích.
+
++ Có tính năng tính chu vi.
+
++ Có tính năng hiển thị trực quan hình chữ nhật bằng cách vẽ lên canvas
+
+Sử dụng lớp Rectangle vừa định nghĩa để viết một chương trình JavaScript với kịch bản như sau:
+
+Khai báo và khởi tạo một đối tượng kiểu Rectangle.
+
+Hiển thị hình chữ nhật trên màn hình web
+
+Thay đổi chiều dài và chiều rộng của hình chữ nhật.
+
+In ra màn hình diện tích và chu vi của hình chữ nhật đó.
+<script>
+    class hinhChuNhat {
+        constructor(chieuDai, chieuRong,) {
+            this.chieuDai = chieuDai;
+            this.chieuRong = chieuRong;
+        }
+
+        getChieuDai() {
+            return this.chieuDai;
+        }
+
+        setChieuDai() {
+            this.chieuDai = chieuDai;
+        }
+
+        getChieuRong() {
+            return this.chieuRong;
+        }
+
+        setChieuRong() {
+            this.chieuRong = chieuRong;
+        }
+
+        dienTich() {
+            return chieuRong * chieuRong;
+        }
+
+        chuVi() {
+            return (chieuRong + chieuDai) * 2;
+        }
+
+        veHinhChuNhat() {
+            var canvas = document.getElementById("hCN");
+            if (canvas.getContext) {
+                var ctx = canvas.getContext('2d');
+                ctx.fillRect(10, 40, 140, 160);
+            }
+        }
+    }
+    let chuNhat = new hinhChuNhat (10,5);
+    let chieuDai = chuNhat.getChieuDai();
+    let chieuRong = chuNhat .getChieuRong();
+    alert("Chiều dài là :" + chieuDai + "Chiều rộng là " + chieuRong);
+    document.getElementById(hCN) = h
+</script>
+</body>
+</html>

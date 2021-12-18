@@ -6,21 +6,19 @@
 </head>
 <body>
 <script>
-    // chưa làm xong còn rối //
-    function soNguyen(){
-
-        while (first < last) {
-            let b = x[first];
-            x[first] = x[last];
-            x[last] = b;
-            first++;
-            last--;
-        }
+    function soNguyen(n1, n2) {
+        let x = [n1, n2]
+        let c = x[0];
+        x[0] = x[1];
+        x[1] = c;
+        return (x);
     }
-    let first = parseInt(prompt("Nhập số nguyên bất kỳ "));
-    let last = parseInt(prompt("Nhập số nguyên bất kỳ "));
-    let d =soNguyen(first,last);
-        alert(d);
+
+    let h = parseInt(prompt("Nhập số nguyên bất kỳ "));
+    let f = parseInt(prompt("Nhập số nguyên bất kỳ "));
+
+    let d = soNguyen(h, f);
+    alert(d);
 </script>
 
 </body>

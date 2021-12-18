@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPalindrome(s) {
+        let input = (s);
+        let number = input;
+        let number1 = 0;
+        while (number > 0) {
+            let sc = number % 10;
+            number1 = number1 * 10 + sc;
+            number = Math.floor(number / 10);
+        }
+        alert("đầu vào " + input + "Số đảo " + number1);
+        if (number1 == input) {
+            alert("Là số đối xứng ")
+        } else {
+            alert("Không phải là số đối xứng ")
+        }
+    }
+    let aBC = prompt("Nhập chuỗi để kiểm tra" );
+    let dEF = isPalindrome(aBC);
+    alert(dEF);
+</script>
+</body>
+</html>
