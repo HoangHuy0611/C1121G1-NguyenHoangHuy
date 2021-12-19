@@ -52,7 +52,7 @@ In ra màn hình diện tích và chu vi của hình chữ nhật đó.
         }
 
         dienTich() {
-            return chieuRong * chieuRong;
+            return chieuDai * chieuRong;
         }
 
         chuVi() {
@@ -60,18 +60,26 @@ In ra màn hình diện tích và chu vi của hình chữ nhật đó.
         }
 
         veHinhChuNhat() {
-            var canvas = document.getElementById("hCN");
+            let canvas = document.getElementById("hCN");
             if (canvas.getContext) {
-                var ctx = canvas.getContext('2d');
+                let ctx = canvas.getContext('2d');
                 ctx.fillRect(10, 40, 140, 160);
             }
         }
     }
-    let chuNhat = new hinhChuNhat (10,5);
+
+    let chuNhat = new hinhChuNhat(10,5);
     let chieuDai = chuNhat.getChieuDai();
-    let chieuRong = chuNhat .getChieuRong();
+    let chieuRong = chuNhat.getChieuRong();
     alert("Chiều dài là :" + chieuDai + "Chiều rộng là " + chieuRong);
-    document.getElementById(hCN) = h
+    chuNhat.veHinhChuNhat()
+    chuNhat.setChieuDai(20);
+    chuNhat.setChieuRong(10);
+    alert("Chu vi hcn là : " + chuNhat.chuVi());
+    alert("Diện tích hcn là " + chuNhat.dienTich());
+
+
+
 </script>
 </body>
 </html>
