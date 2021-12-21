@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-    class temperature {
+    class Temperature {
         constructor(doC) {
             this.doC = doC;
         }
@@ -20,7 +20,7 @@
             return this.doC + 273.15;
         }
     }
-    let aBC = new temperature();
+    let aBC = new Temperature();
     aBC.setDoC(25);
     alert("độ F là " + aBC.cSangF());
     alert("Độ K là " + aBC.cSangK());
