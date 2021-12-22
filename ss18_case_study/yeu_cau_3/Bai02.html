@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<script>
+    let a = [1, 2, 3, 4, 5, 2];
+    let b = [1, 2, 5, 6, 4, 7, 6, 3];
+    let c = [];
+    for (let i = 0; i < b.length; i++) {
+        let check = true ;
+        for (let j = 0; j < a.length; j++) {
+            if (a[j] == b[i]) {
+                check = false
+                break;
+            }
+
+        }
+        if (check){
+            c.push(b[i])
+        }
+    }
+    alert(c)
+    let h = [];
+    for (let d =0 ; d < c.length ; d++){
+        let check1 = true ;
+        for (let e = 0 ; e < d ; e++){
+            if (c[d] == h[e]){
+                check1 = false
+                break;
+            }
+        }
+        if (check1){
+            h.push(c[d])
+
+        }
+    }
+    alert(h);
+
+</script>
+
+</body>
+</html>

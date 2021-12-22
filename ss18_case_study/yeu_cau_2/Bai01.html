@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tienLuong = parseInt(prompt("Nhập tiền lương chưa thuế : "))
+    let thue = parseInt(prompt("Nhập % thuế : "))
+    let thueThuNhap = 0
+    let tienSauThue = 0 ;
+
+    if (tienLuong >= 15000000){
+        thueThuNhap = tienLuong*thue/100
+    }else if(7000000 >= tienLuong<15000000){
+        thueThuNhap = tienLuong*thue/100
+    }else {
+        thueThuNhap = tienLuong*thue/100
+    }
+    tienSauThue = tienLuong - thueThuNhap
+    alert(" thuế thu nhập là : " + thueThuNhap + " số tiền sau thuế bạn nhận được là :" + tienSauThue);
+</script>
+
+</body>
+</html>

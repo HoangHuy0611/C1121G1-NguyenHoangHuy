@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function solution(arg1) {
+        let flag = true;
+        for (let i = 0; i < arg1.length; i++) {
+            if (arg1[i] >= 0) {
+                if (arg1[i + 1] % arg1[i] == 0) {
+                    return true;
+                } else if (arg1[i + 1] % arg1[i] != 0) {
+                    return false;
+                }
+            } else return false;
+        }
+    }
+
+    console.log(solution([1, 2, 3]));
+</script>
+
+
+</body>
+</html>

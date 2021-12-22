@@ -20,13 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32da2a1-d211-46a0-9292-9132be3d38a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/XayDungMoTaDienThoai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_tap/AdamVsEva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/bai_tap/CatAndRate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/thuc_hanh/XayDungLopMoPhongSuHoatDongCuaDenPin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17_lap_trinh_huong_doi_tuong_2/thuc_hanh/123.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_1/Bai01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_1/Bai02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_1/Bai03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_1/Bai04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_2/Bai01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_2/Bai02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_3/Bai01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_3/Bai02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_3/Bai03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_3/Bai04.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/XayDungLopMoTaHinhChuNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/XayDungLopMoTaHinhChuNhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/XayDungLopMoTaTemperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_lap_trinh_huong_doi_tuong_1/bai_tap/XayDungLopMoTaTemperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_2/VongLap02Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_vong_lap_2/bai_tap/luyen_tap_2/VongLap02Bai4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +154,8 @@
       <workItem from="1639982653542" duration="6007000" />
       <workItem from="1640021726728" duration="3000" />
       <workItem from="1640061450036" duration="210000" />
+      <workItem from="1640079419524" duration="1251000" />
+      <workItem from="1640142225452" duration="28100000" />
     </task>
     <servers />
   </component>
@@ -179,42 +187,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638767453657" />
-    <state x="539" y="0" width="681" height="1017" key="dock-window-1" timestamp="1639985699663">
+    <state x="283" y="28" width="737" height="1017" key="dock-window-1" timestamp="1640143707470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="0" width="681" height="1017" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1639985699663" />
+    <state x="283" y="28" width="737" height="1017" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1640143707470" />
     <state x="794" y="50" width="783" height="1017" key="dock-window-10" timestamp="1638927444491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="50" width="783" height="1017" key="dock-window-10/0.0.1920.1040@0.0.1920.1040" timestamp="1638927444491" />
-    <state x="24" y="35" width="755" height="1024" key="dock-window-2" timestamp="1639728408054">
+    <state x="85" y="30" width="737" height="1017" key="dock-window-2" timestamp="1640151666006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="24" y="35" width="755" height="1024" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1639728408054" />
-    <state x="13" y="0" width="524" height="1024" key="dock-window-3" timestamp="1639730947586">
+    <state x="85" y="30" width="737" height="1017" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1640151666006" />
+    <state x="24" y="18" width="737" height="1017" key="dock-window-3" timestamp="1640145343257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="13" y="0" width="524" height="1024" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1639730947586" />
-    <state x="119" y="56" width="874" height="1017" key="dock-window-4" timestamp="1639625015690">
+    <state x="24" y="18" width="737" height="1017" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1640145343257" />
+    <state x="402" y="0" width="690" height="1017" key="dock-window-4" timestamp="1640157620897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="119" y="56" width="874" height="1017" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1639625015690" />
-    <state x="140" y="80" width="874" height="1017" key="dock-window-5" timestamp="1639625382528">
+    <state x="402" y="0" width="690" height="1017" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1640157620897" />
+    <state x="38" y="18" width="821" height="1017" key="dock-window-5" timestamp="1640161163653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="140" y="80" width="874" height="1017" key="dock-window-5/0.0.1920.1040@0.0.1920.1040" timestamp="1639625382528" />
-    <state x="36" y="6" width="874" height="1017" key="dock-window-6" timestamp="1639626411778">
+    <state x="38" y="18" width="821" height="1017" key="dock-window-5/0.0.1920.1040@0.0.1920.1040" timestamp="1640161163653" />
+    <state x="415" y="80" width="849" height="1017" key="dock-window-6" timestamp="1640173359092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="36" y="6" width="874" height="1017" key="dock-window-6/0.0.1920.1040@0.0.1920.1040" timestamp="1639626411778" />
-    <state x="86" y="0" width="874" height="1017" key="dock-window-7" timestamp="1639626769250">
+    <state x="415" y="80" width="849" height="1017" key="dock-window-6/0.0.1920.1040@0.0.1920.1040" timestamp="1640173359092" />
+    <state x="389" y="80" width="849" height="1017" key="dock-window-7" timestamp="1640173684387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="86" y="0" width="874" height="1017" key="dock-window-7/0.0.1920.1040@0.0.1920.1040" timestamp="1639626769250" />
-    <state x="151" y="58" width="662" height="1017" key="dock-window-8" timestamp="1639627332766">
+    <state x="389" y="80" width="849" height="1017" key="dock-window-7/0.0.1920.1040@0.0.1920.1040" timestamp="1640173684387" />
+    <state x="281" y="518" width="697" height="538" key="dock-window-8" timestamp="1640182350464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="151" y="58" width="662" height="1017" key="dock-window-8/0.0.1920.1040@0.0.1920.1040" timestamp="1639627332766" />
+    <state x="281" y="518" width="697" height="538" key="dock-window-8/0.0.1920.1040@0.0.1920.1040" timestamp="1640182350464" />
     <state x="533" y="80" width="581" height="1017" key="dock-window-9" timestamp="1639628319908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
