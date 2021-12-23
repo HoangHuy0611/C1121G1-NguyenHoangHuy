@@ -8,8 +8,17 @@
 <script>
     let nummerators = [4, 2, 7];
     let denominators = [5, 3, 7];
-    let max = []
+    let max = nummerators[0] /denominators[0];
     let index = 0;
+    for (let i = 0; i < nummerators.length; i++) {
+        if (nummerators[i] / denominators[i] > max) {
+            max = nummerators[i] / denominators[i]
+            index = i;
+        }
+    }
+    document.write(nummerators[index]+'/'+denominators[index]);
+    document.write('<br>');
+    document.write(index);
 
 </script>
 
