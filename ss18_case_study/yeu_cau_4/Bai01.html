@@ -6,13 +6,33 @@
 </head>
 Bài 1: Viết một hàm chuẩn hóa xâu ký tự: biến đổi xâu ký tự thành
 xâu sao cho trong xâu không có 2 dấu cách liền nhau và bắt đầu mỗi từ phải in hoa.
-Ví dụ tRuong    TaN   HAI => Truong Tan Hai.
+Ví dụ tRuong TaN HAI => Truong Tan Hai.
 Và một hàm tìm từ dài nhất trong 1 xâu ký tự.
 Hàm main sử dụng các hàm này để nhập xâu ký tự từ bàn phím,
 in ra xâu trước và sau khi chuẩn hóa, 1 từ dài nhất trong xâu đó.
 <body>
 <script>
-
+    let str = prompt("Nhập họ và tên : ")
+    let array = str.split(" ");
+    let ketQua = "";
+    let a = [];
+    for (let i = 0 ; i <array.length; i++){
+        if (array[i] == ""){
+            array.splice(i,1)
+            i--;
+        }
+    }
+    alert(array)
+    for(let j=0 ; j <array.length; j++){
+        array[j]= array[j].toLowerCase()
+    }
+    alert(array)
+    for (let h = 0; h < array.length; h++) {
+        let string = (array[h].charAt(0)).toUpperCase()+ array[h].slice(1, array[h].length);
+        a.push(string);
+        ketQua = a.join(" ");
+    }
+    alert(ketQua);
 </script>
 </body>
 </html>

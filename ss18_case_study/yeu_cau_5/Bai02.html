@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = parseInt(prompt("Nhập số dòng"));
+    let m = parseInt(prompt("Nhập số cột"));
+    let arr = [];
+    let arr1 = [];
+    for (let i = 0; i < m; i++) {
+        let a = [];
+        for (let j = 0; j < n; j++) {
+            a[j] = parseInt(prompt("Nhập số vào hàng"));
+        }
+        arr[i] = a;
+    }
+    alert(arr)
+
+    function kiemTraSoNguyenTo(number) {
+        if (number < 2) {
+            return false;
+        }
+        for (let i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function soNguyenTo(arr) {
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr[i].length; j++) {
+                if (kiemTraSoNguyenTo(arr[i][j])) {
+                    arr1.push(arr[i][j]);
+                }
+            }
+        }
+        alert("Số nguyên tố có trong mảng là : " + arr1)
+    }
+    soNguyenTo(arr)
+
+
+</script>
+</body>
+</html>

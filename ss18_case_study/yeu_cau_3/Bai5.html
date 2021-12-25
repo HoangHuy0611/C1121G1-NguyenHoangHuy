@@ -5,7 +5,64 @@
     <title>Title</title>
 </head>
 <body>
+<table border="1" style="border-collapse: collapse">
+        <th>Menu đồ uống</th>
+    <tr>
+        <td>1</td>
+        <td>
+            <input type =button  id="1" value="Cafe"onclick="chonNuoc('Cafe','10000')">
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>
+            <input type =button  id="2" value="Kem"onclick="chonNuoc('Kem','12000')">
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>
+            <input type =button  id="3" value="Sữa chua" onclick="chonNuoc('Sữa chua','13000')">
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>
+            <input type =button  id="4" value="Nước chanh" onclick="chonNuoc('Nước chanh','14000')">
+        </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>
+            <input type =button  id="5" value="Dâu tây"onclick="chonNuoc('Dâu tây ','15000')">
+        </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>
+            <input type =button  id="6" value="Nước lọc "onclick="chonNuoc('Nước lọc','16000')">
+        </td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>
+            <input type =button  id="7" value="Kết thúc gọi món "onclick="tinhTien()">
+        </td>
+    </tr>
+</table>
 <script>
+    let sum =0;
+    function chonNuoc(name,price) {
+        alert(name + "," + price)
+        let sL = prompt("Nhập số lượng muốn order ")
+        let tongTien
+        tongTien = price * sL;
+        alert(tongTien)
+        sum += tongTien
+    }
+    function tinhTien() {
+        alert('Tổng tiền gọi món của bạn là '+sum)
+    }
 
 </script>
 </body>

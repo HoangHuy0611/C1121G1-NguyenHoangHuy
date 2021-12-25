@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = "bsbhhsf"
+    let array1 = a.split("");
+    for (let i = 0; i < array1.length; i++) {
+        for (let j = i + 1; j < array1.length; j++) {
+            if (array1[i] == array1[j]) {
+                array1.splice(j, 1);
+                j--;
+            }
+        }
+    }
+    alert(array1)
+</script>
+</body>
+</html>
