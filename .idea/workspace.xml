@@ -20,15 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32da2a1-d211-46a0-9292-9132be3d38a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_4/Bai02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_4/bai03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_5/Bai01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_5/Bai02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_5/Bai03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_thi_thu_module_1/Bai01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_thi_thu_module_1/Bai02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_thi_thu_module_1/Bai04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_6/XoSoVietLot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss18_case_study/yeu_cau_2/Bai01.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_2/Bai01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss18_case_study/yeu_cau_3/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_3/Bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss18_case_study/yeu_cau_4/Bai01.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss18_case_study/yeu_cau_4/Bai01.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +152,18 @@
       <workItem from="1640241526199" duration="12399000" />
       <workItem from="1640310736937" duration="675000" />
       <workItem from="1640313469727" duration="11555000" />
-      <workItem from="1640410413594" duration="7377000" />
+      <workItem from="1640410413594" duration="7979000" />
+      <workItem from="1640522702953" duration="1781000" />
+      <workItem from="1640524509116" duration="1750000" />
+      <workItem from="1640526340970" duration="1929000" />
+      <workItem from="1640528296797" duration="1781000" />
+      <workItem from="1640530103845" duration="1783000" />
+      <workItem from="1640531910151" duration="927000" />
+      <workItem from="1640534338502" duration="796000" />
+      <workItem from="1640538168481" duration="1805000" />
+      <workItem from="1640539999619" duration="603000" />
+      <workItem from="1640542661591" duration="1785000" />
+      <workItem from="1640544474826" duration="106000" />
     </task>
     <servers />
   </component>
@@ -188,10 +195,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638767453657" />
-    <state x="342" y="0" width="763" height="1017" key="dock-window-1" timestamp="1640266691949">
+    <state x="452" y="80" width="802" height="1017" key="dock-window-1" timestamp="1640531216308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="0" width="763" height="1017" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1640266691949" />
+    <state x="452" y="80" width="802" height="1017" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1640531216308" />
     <state x="794" y="50" width="783" height="1017" key="dock-window-10" timestamp="1638927444491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

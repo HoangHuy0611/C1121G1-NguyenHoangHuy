@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = prompt("Nhập kí tự bất kì ")
+
+    function taoChuoiKiTu(str) {
+        let array = str.split(" ");
+        let ketQua = "";
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] == "") {
+                array.splice(i, 1)
+                i--;
+            }
+        }
+        if (array.length <= 1) {
+            return "Chuỗi chỉ có 1 từ không cần viết tắt ";
+        } else {
+            for (let j = 0; j < array.length; j++) {
+                ketQua += (array[j].charAt(0)).toUpperCase();
+            }
+            return ketQua;
+        }
+
+    }
+
+    let d = taoChuoiKiTu(str);
+    alert(d)
+</script>
+
+</body>
+</html>

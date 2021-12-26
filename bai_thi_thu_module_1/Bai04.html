@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" placeholder="Mã tài khoản" id="taiKhoan">
+<input type="text" placeholder="Tên chủ tài khoản" id="chuTaiKhoan">
+<input type="text" placeholder="Tên ngân hàng" id="tenNganHang">
+<input type="text" placeholder="Tổng tiền tài khoản " id="tienTaiKhoan">
+<input type="button" id="them" onclick="themMoi()" value="Thêm mới">
+<input type="button" id="luu" onclick="luu1()" value="Lưu" style="display: none">
+<p id="thanhCong" style="color:red;"></p>
+<p id="hienThi"></p>
+<script>
+    class TaiKhoanNganHang {
+        constructor(taiKhoan, chuTaiKhoan, tenNganHang, tienTaiKhoan) {
+            this.taiKhoan = taiKhoan;
+            this.chuTaiKhoan = chuTaiKhoan;
+            this.tenNganHang = tenNganHang;
+            this.tienTaiKhoan = tienTaiKhoan;
+        }
+
+        setTaiKhoan(taiKhoan) {
+            this.taiKhoan = taiKhoan;
+        }
+
+        getTaiKhoan() {
+            return this.taiKhoan;
+        }
+
+        setChuTaiKhoan(chuTaiKhoan) {
+            this.chuTaiKhoan = chuTaiKhoan;
+        }
+
+        getChuTaiKhoan() {
+            return this.chuTaiKhoan;
+        }
+
+        setTenNganHang(tenNganHang) {
+            this.tenNganHang = tenNganHang;
+        }
+
+        getTenNganHang() {
+            return this.tenNganHang;
+        }
+
+        setTienTaiKhoan(tienTaiKhoan) {
+            this.tienTaiKhoan = tienTaiKhoan;
+        }
+
+        getTienTaiKhoan() {
+            return this.tienTaiKhoan;
+        }
+    }
+
+    let taiKhoanNganHang1 = new TaiKhoanNganHang("123456789", "Huy1", "Techcombank", 500000000000)
+    let taiKhoanNganHang2 = new TaiKhoanNganHang("987654321", "Huy2", "Vietcombank", 700000000000)
+    let taiKhoanNganHang3 = new TaiKhoanNganHang("123123123", "Huy3", "Viettinbank", 900000000000)
+    let danhSachTaiKhoanNganHang = [taiKhoanNganHang1, taiKhoanNganHang2, taiKhoanNganHang3];
+    let idChinhSua = 0;
+    hienThi(danhSachTaiKhoanNganHang);
+
+    function themMoi() {
+        let taiKhoan = document.getElementById("taiKhoan").value;
+        let chuTaiKhoan = document.getElementById("chuTaiKhoan").value;
+        let tenNganHang = document.getElementById("tenNganHang").value;
+        let tienTaiKhoan = document.getElementById("tienTaiKhoan").value;
+        let taoTaiKhoanMoi = new TaiKhoanNganHang(taiKhoan, chuTaiKhoan, tenNganHang, tienTaiKhoan);
+        danhSachTaiKhoanNganHang.push(taoTaiKhoanMoi);
+        document.getElementById("taiKhoan").value = "";
+        document.getElementById("chuTaiKhoan").value = "";
+        document.getElementById("tenNganHang").value = "";
+        document.getElementById("tienTaiKhoan").value = "";
+        hienThi(danhSachTaiKhoanNganHang);
+        document.getElementById("thanhCong").innerText = "Bạn đã thêm tài khoản mới thành công";
+        setTimeout(dt, 3000);
+    }
+
+    function dt() {
+        document.getElementById("thanhCong").style.display = 'none'
+    }
+
+    function hienThi(danhSach) {
+        let bang = '<table border="1" style="border-collapse: collapse">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Mã tài khoản</th>\n' +
+            '        <th>Chủ tài khoản</th>\n' +
+            '        <th>Tên Ngân Hàng</th>\n' +
+            '        <th>Tổng tiền tài khoản</th>\n' +
+            '        <th>Chỉnh sửa </th>\n' +
+            '        <th>Xóa</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < danhSach.length; i++) {
+            bang += '<tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + danhSach[i].getTaiKhoan() + '</td>\n' +
+                '        <td>' + danhSach[i].getChuTaiKhoan() + '</td>\n' +
+                '        <td>' + danhSach[i].getTenNganHang() + '</td>\n' +
+                '        <td>' + danhSach[i].getTienTaiKhoan() + '</td>\n' +
+                '        <td><input type="button" value="Edit" onclick="chinhSua(' + i + ')"></td>\n' +
+                '        <td><input type="button" value="Delete" onclick="xoaTaiKhoan(' + i + ')"></td>\n' +
+                '    </tr>';
+        }
+        bang += '</table>'
+        document.getElementById("hienThi").innerHTML = bang;
+    }
+
+    function xoaTaiKhoan(index) {
+        alert(index);
+    }
+
+    function chinhSua(index) {
+        idChinhSua = index;
+        document.getElementById("taiKhoan").value = danhSachTaiKhoanNganHang[index].getTaiKhoan();
+        document.getElementById("chuTaiKhoan").value = danhSachTaiKhoanNganHang[index].getChuTaiKhoan();
+        document.getElementById("tenNganHang").value = danhSachTaiKhoanNganHang[index].getTenNganHang();
+        document.getElementById("tienTaiKhoan").value = danhSachTaiKhoanNganHang[index].getTienTaiKhoan();
+        document.getElementById("luu").style.display = 'block';
+        document.getElementById("them").style.display = 'none';
+    }
+
+    function luu1() {
+        let taiKhoan = document.getElementById("taiKhoan").value;
+        let chuTaiKhoan = document.getElementById("chuTaiKhoan").value;
+        let tenNganHang = document.getElementById("tenNganHang").value;
+        let tienTaiKhoan = document.getElementById("tienTaiKhoan").value;
+        danhSachTaiKhoanNganHang[idChinhSua].setTaiKhoan(taiKhoan);
+        danhSachTaiKhoanNganHang[idChinhSua].setChuTaiKhoan(chuTaiKhoan);
+        danhSachTaiKhoanNganHang[idChinhSua].setTenNganHang(tenNganHang);
+        danhSachTaiKhoanNganHang[idChinhSua].setTienTaiKhoan(tienTaiKhoan);
+        hienThi(danhSachTaiKhoanNganHang);
+        document.getElementById("taiKhoan").value = "";
+        document.getElementById("chuTaiKhoan").value = "";
+        document.getElementById("tenNganHang").value = "";
+        document.getElementById("tienTaiKhoan").value = "";
+        document.getElementById("luu").style.display = 'none';
+        document.getElementById("them").style.display = 'block';
+    }
+</script>
+</body>
+</html>
